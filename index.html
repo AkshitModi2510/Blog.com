@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Most Important for Icons -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/Style.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light my_nav fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 topp">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Post.html">Post</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="category.html">Category</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Categories
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="archive.html">Archived</a></li>
+                            <li><a class="dropdown-item" href="Author.html">Author</a></li>
+                            <!-- <li>
+                                <hr class="dropdown-divider">
+                            </li> -->
+                            <li><a class="dropdown-item" href="tag.html">Tagged</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0" action="Search.html">
+                    <div class="input-group">
+                        <input type="search" class="form-control form-control-sm" placeholder="Search.."
+                            aria-label="Search" aria-describedby="basic-addon2">
+                        <button class="btn btn-success" type="submit" id="button-addon2"><i
+                                class="fa fa-search"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav bar -->
+
+    <!-- Banner -->
+    <header class="mainHeader" style="background-image: url(wood.jpg);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-8">
+                    <div class="header-text-holder">
+                        <h1>Akshit Modi's Blog</h1>
+                        <p>
+                            The pain itself is pain, it loves to be enhanced by the adipiscing process.
+                            There are here often pains to be repudiated by desire, pain that invented
+                            some pleasure, nor that exercise which was born in the manner of those who
+                            praise it. When they follow, the pleasures of the car are, at least, indeed,
+                            for they have never been corrupted, but they are no small-born admirers, no
+                            greater than the present! However, is the flight bound to be corrupted? The
+                            pain itself is important to the main adipisicing elite. As if the whole flight
+                            of these great blesseds was any pleasure in the pleasure of praising the
+                            very slightest expedient, unencumbered, but rejecting freedom? We accuse
+                            him of annoying necessities.
+                        </p>
+                    </div>
+                    <div class="subscribe-btn ">
+                        <a href="#" class="btn btn-info btn-block" data-bs-toggle="modal"
+                            data-bs-target="#subscribeModal">Subscribe for latest Update</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Banner -->
+
+    <!-- Subscribe Modal -->
+    <div class="modal fade" id="subscribeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Subscribe For Newletters</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <input type="text" class="form-control form-control-sm" placeholder="Your Email Id">
+                        <input type="submit" class="form-control btn-success mt-3 btn-sm" data-bs-dismiss="modal"
+                            value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Subscribe Modal  -->
+    <section class="home-body-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3">
+                    <div class="card my_card">
+                        <img src="https://source.unsplash.com/random/79/?img" class="img-fluid" alt="Image">
+                        <div class="card-body">
+                            <h3 class="card-title">Blog Post Title</h3>
+                            <p class="card-text"> The pain itself is pain, it loves to be enhanced by the adipiscing
+                                process.
+                                There are here often pains to be repudiated by desire, pain that invented
+                                some pleasure.</p>
+                            <a href="#" class="btn btn-primary btn-sm">Read More</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="card my_card">
+                        <img src="https://source.unsplash.com/random/80" class="img-fluid" alt="Image">
+                        <div class="card-body">
+                            <h3 class="card-title">Blog Post Title</h3>
+                            <p class="card-text"> The pain itself is pain, it loves to be enhanced by the adipiscing
+                                process.
+                                There are here often pains to be repudiated by desire, pain that invented
+                                some pleasure.</p>
+                            <a href="#" class="btn btn-primary btn-sm">Read More</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="card my_card">
+                        <img src="https://source.unsplash.com/random/81/?img" class="img-fluid" alt="Image">
+                        <div class="card-body">
+                            <h3 class="card-title">Blog Post Title</h3>
+                            <p class="card-text"> The pain itself is pain, it loves to be enhanced by the adipiscing
+                                process.
+                                There are here often pains to be repudiated by desire, pain that invented
+                                some pleasure.</p>
+                            <a href="#" class="btn btn-primary btn-sm">Read More</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="card my_card">
+                        <img src="https://source.unsplash.com/random/82" class="img-fluid" alt="Image">
+                        <div class="card-body">
+                            <h3 class="card-title">Blog Post Title</h3>
+                            <p class="card-text"> The pain itself is pain, it loves to be enhanced by the adipiscing
+                                process.
+                                There are here often pains to be repudiated by desire, pain that invented
+                                some pleasure.</p>
+                            <a href="#" class="btn btn-primary btn-sm">Read More</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="card my_card">
+                        <img src="https://source.unsplash.com/random/83/?img" class="img-fluid" alt="Image">
+                        <div class="card-body">
+                            <h3 class="card-title">Blog Post Title</h3>
+                            <p class="card-text"> The pain itself is pain, it loves to be enhanced by the adipiscing
+                                process.
+                                There are here often pains to be repudiated by desire, pain that invented
+                                some pleasure.</p>
+                            <a href="#" class="btn btn-primary btn-sm">Read More</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="card my_card">
+                        <img src="https://source.unsplash.com/random/84" class="img-fluid" alt="Image">
+                        <div class="card-body">
+                            <h3 class="card-title">Blog Post Title</h3>
+                            <p class="card-text"> The pain itself is pain, it loves to be enhanced by the adipiscing
+                                process.
+                                There are here often pains to be repudiated by desire, pain that invented
+                                some pleasure.</p>
+                            <a href="#" class="btn btn-primary btn-sm">Read More</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="card my_card">
+                        <img src="https://source.unsplash.com/random/78" class="img-fluid" alt="Image">
+                        <div class="card-body">
+                            <h3 class="card-title">Blog Post Title</h3>
+                            <p class="card-text"> The pain itself is pain, it loves to be enhanced by the adipiscing
+                                process.
+                                There are here often pains to be repudiated by desire, pain that invented
+                                some pleasure.</p>
+                            <a href="#" class="btn btn-primary btn-sm">Read More</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="card my_card">
+                        <img src="https://source.unsplash.com/random/77/?img" class="img-fluid" alt="Image">
+                        <div class="card-body">
+                            <h3 class="card-title">Blog Post Title</h3>
+                            <p class="card-text"> The pain itself is pain, it loves to be enhanced by the adipiscing
+                                process.
+                                There are here often pains to be repudiated by desire, pain that invented
+                                some pleasure.</p>
+                            <a href="#" class="btn btn-primary btn-sm">Read More</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="copy text-center">
+                        <p><small>Copyright &copy; 2022, All Rights Reserved</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer -->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

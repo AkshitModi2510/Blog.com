@@ -1,0 +1,77 @@
+.my_nav{          
+    box-shadow: 2px 2px 18px rgb(95, 91, 91);
+    background-color: rgba(255, 255, 255, 0.705) !important;
+    backdrop-filter: blur(5px);    
+    /* the above text are important to make the nav bar blur background */
+}
+.mainHeader{
+    background-image: url(wood.jpg);
+    background-size: cover;
+    color: bisque;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.default-header{
+    background-image: url(wood.jpg);
+    background-size: cover;
+    color: bisque;
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
+.header-text-holder{
+    text-align: center;
+}
+.default-text-holder h1{
+    font-size: 2em;
+}
+.subscribe-btn{
+    padding-top: 20px;
+    text-align: center;
+}
+.home-body-content, .default-body-content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.default-body-content .list-group .list-group-item h3{
+    font-size: 1.3em;
+}
+.default-body-content .list-group .list-group-item a{
+    color: black;
+    padding-top: 10px;
+}
+.my_card{
+    margin-bottom: 20px;
+}
+.my_card:hover,.myCard:hover{
+    box-shadow: 2px 2px 30px rgb(97, 85, 85);
+}
+.my_card img{
+    height: 200px;
+    width: 533px;
+}
+.my_card h3{
+    font-size: 1.5em;
+}
+.myCard{
+    height: 460px;
+    width: 350px;
+    margin-top: 5em;
+    margin-left: 1em;
+}
+.card .card-body .imge{
+    height: 250px;
+    width: 300px;
+}
+.main-footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+    color: antiquewhite;
+}
+.main-footer p{
+    margin: 0px;
+}
+
+.archives a{
+    text-decoration:none;
+}
